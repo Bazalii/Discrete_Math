@@ -1,3 +1,10 @@
+# import dwave_networkx as dnx
+# import networkx as nx
+# import dimod  # small testing sampler
+# G = nx.Graph()
+# G.add_nodes_from([1, 2])
+# G.add_edges_from([(1,2)])
+# print(dnx.min_vertex_cover(G, sampler, lagrange=2.0))
 from random import random
 from random import randrange
 import networkx as nx
@@ -6,7 +13,11 @@ from networkx.algorithms import planarity
 from networkx.algorithms import planar_drawing
 import matplotlib.pyplot as plt
 import graphviz as gv
+import dwave_networkx as dnx
+import dimod
+
 colors = ['green', 'red', 'orange', 'yellow', 'pink', 'blue', 'purple', 'black']
+
 
 def color_the_edges(inp_graph, type_of_coloring):
     buffer = []
@@ -19,6 +30,7 @@ def color_the_edges(inp_graph, type_of_coloring):
     for i in Main_graph.edges:
         if i not in buffer and (i[1], i[0]) not in buffer:
             inp_graph.edge(i[0], i[1])
+
 
 def color_the_vertexes(inp_graph, type_of_coloring):
     buffer = []
@@ -50,6 +62,8 @@ print(len(countries))
 Full_graph = nx.Graph()
 Full_graph.add_nodes_from(countries)
 Full_graph.add_weighted_edges_from(edges)
+sampler = dimod.ExactSolver()
+print(dnx.algorithms.cover.min_vertex_cover(Full_graph, sampler, lagrange=2.0))
 print(nx.algorithms.check_planarity(Full_graph))
 nx.draw_planar(Full_graph, with_labels=True, font_weight='bold')
 plt.show()
@@ -79,7 +93,7 @@ for i in Main_graph.edges:
     vertex_colored_graph.edge(i[0], i[1])
 for i in vertex_coloring:
     vertex_colored_graph.node(i, style='filled', fillcolor=colors[vertex_coloring.get(i)])
-vertex_colored_graph.view(filename='vertex_colored_graph', quiet_view=True)
+# vertex_colored_graph.view(filename='vertex_colored_graph', quiet_view=True)
 print("d")
 edge_coloring = nx.greedy_color(nx.line_graph(Main_graph))
 print(edge_coloring)
@@ -88,7 +102,7 @@ for i in edge_coloring:
     edge_colored_graph.edge(i[0], i[1], color=colors[edge_coloring.get(i)])
 for i in Main_graph.nodes:
     edge_colored_graph.node(i)
-edge_colored_graph.view(filename='edge_colored_graph')
+# edge_colored_graph.view(filename='edge_colored_graph')
 a = nx.find_cliques(Main_graph)
 print("e")
 maximum_clique = approximation.max_clique(Main_graph)
@@ -102,13 +116,13 @@ for i in range(0, len(maximum_clique_list)):
     for j in range(i + 1, len(maximum_clique_list)):
         if i != j:
             maximum_clique_subgraph.edge(maximum_clique_list[i], maximum_clique_list[j])
-maximum_clique_subgraph.view(filename='maximum_clique_subgraph')
+# maximum_clique_subgraph.view(filename='maximum_clique_subgraph')
 print("f")
 independent_set = approximation.maximum_independent_set(Main_graph)
 independent_set_graph = gv.Graph()
 print("Independent set:", independent_set)
 color_the_vertexes(independent_set_graph, independent_set)
-independent_set_graph.view(filename='independent_set_graph')
+# independent_set_graph.view(filename='independent_set')
 print(len(approximation.maximum_independent_set(Main_graph)))
 print("g")
 maximum_matching = nx.max_weight_matching(Main_graph)
@@ -116,9 +130,10 @@ maximum_matching_graph = gv.Graph()
 print("Maximum matching:", nx.max_weight_matching(Main_graph))
 print(len(nx.max_weight_matching(Main_graph)))
 color_the_edges(maximum_matching_graph, maximum_matching)
-maximum_matching_graph.view(filename='maximum_matching_graph')
+# maximum_matching_graph.view(filename='maximum_matching')
 print("h")
-minimum_vertex_cover = approximation.min_weighted_vertex_cover(Main_graph)
+sampler = dimod.ExactSolver()
+minimum_vertex_cover = dnx.algorithms.cover.min_vertex_cover(Main_graph, sampler, lagrange=2.0)
 minimum_vertex_cover_graph = gv.Graph()
 print("Minimum vertex cover:", minimum_vertex_cover)
 print(len(approximation.min_weighted_vertex_cover(Main_graph)))
@@ -130,14 +145,14 @@ minimum_edge_cover_graph = gv.Graph()
 print("Minimum edge cover:", minimum_edge_cover)
 print(len(minimum_edge_cover))
 color_the_edges(minimum_edge_cover_graph, minimum_edge_cover)
-minimum_edge_cover_graph.view(filename='minimum_edge_cover_graph')
+# minimum_edge_cover_graph.view(filename='minimum_edge_cover')
 print("l")
 for i in nx.algorithms.components.biconnected_components(Full_graph):
     print(i)
 print("m")
 for i in nx.algorithms.connectivity.k_edge_components(Full_graph, 2):
     for j in i:
-        print(j, end = ",")
+        print(j, end=",")
     print()
 print("n")
 print("o")
@@ -146,7 +161,7 @@ minimum_spanning_tree_graph = gv.Graph()
 print("Minimum spanning tree:", minimum_spanning_tree)
 print(len(minimum_spanning_tree))
 color_the_edges(minimum_spanning_tree_graph, minimum_spanning_tree)
-minimum_spanning_tree_graph.view(filename='minimum_spanning_tree')
+# minimum_spanning_tree_graph.view(filename='minimum_spanning_tree')
 print("p")
 print(nx.barycenter(nx.algorithms.tree.minimum_spanning_tree(Main_graph)))
 print("q")
