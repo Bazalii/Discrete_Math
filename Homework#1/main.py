@@ -133,25 +133,41 @@ print(nx.is_maximal_matching(Main_graph, maximum_matching))
 color_the_edges(maximum_matching_graph, maximum_matching)
 # maximum_matching_graph.view(filename='maximum_matching')
 print("h")
-# for a in Main_graph.nodes:
-#     for b in Main_graph.nodes:
-#         for c in Main_graph.nodes:
-#             for d in Main_graph.nodes:
-#                 for e in Main_graph.nodes:
-#                     for f in Main_graph.nodes:
-#                         for g in Main_graph.nodes:
-#                             for h in Main_graph.nodes:
-#                                 for i in Main_graph.nodes:
-#                                     for j in Main_graph.nodes:
-#                                         for k in Main_graph.nodes:
-#                                             for l in Main_graph.nodes:
-#                                                 for m in Main_graph.nodes:
-#                                                     for n in Main_graph.nodes:
-#                                                         for o in Main_graph.nodes:
-#                                                             for p in Main_graph.nodes:
-#                                                                 vertex_cover = {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p}
-#                                                                 if dnx.is_vertex_cover(Main_graph, vertex_cover):
-#                                                                     print(vertex_cover)
+for a in Main_graph.nodes:
+    for b in Main_graph.nodes:
+        for c in Main_graph.nodes:
+            for d in Main_graph.nodes:
+                for e in Main_graph.nodes:
+                    for f in Main_graph.nodes:
+                        for g in Main_graph.nodes:
+                            for h in Main_graph.nodes:
+                                for i in Main_graph.nodes:
+                                    for j in Main_graph.nodes:
+                                        for k in Main_graph.nodes:
+                                            for l in Main_graph.nodes:
+                                                for m in Main_graph.nodes:
+                                                    for n in Main_graph.nodes:
+                                                        for o in Main_graph.nodes:
+                                                            for p in Main_graph.nodes:
+                                                                for q in Main_graph.nodes:
+                                                                    for r in Main_graph.nodes:
+                                                                        for s in Main_graph.nodes:
+                                                                            for t in Main_graph.nodes:
+                                                                                for u in Main_graph.nodes:
+                                                                                    for v in Main_graph.nodes:
+                                                                                        for w in Main_graph.nodes:
+                                                                                            vertex_cover1 = {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w}
+                                                                                            vertex_cover2 = {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v}
+                                                                                            vertex_cover3 = {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u}
+                                                                                            vertex_cover4 = {a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t}
+                                                                                            if dnx.is_vertex_cover(Main_graph, vertex_cover1):
+                                                                                                print(vertex_cover1)
+                                                                                            if dnx.is_vertex_cover(Main_graph, vertex_cover2):
+                                                                                                print(vertex_cover1)
+                                                                                            if dnx.is_vertex_cover(Main_graph, vertex_cover3):
+                                                                                                print(vertex_cover1)
+                                                                                            if dnx.is_vertex_cover(Main_graph, vertex_cover4):
+                                                                                                print(vertex_cover1)
 
 # minimum_vertex_cover = nx.algorithms.minimum_node_cut(Main_graph)
 # minimum_vertex_cover_graph = gv.Graph()
