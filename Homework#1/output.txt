@@ -1,43 +1,44 @@
 b
 Number of nodes: 47
-Number of edges: 85
+Number of edges: 86
 Diameter: 8
 Radius 5
 Center: ['AT', 'CZ', 'DE', 'HU', 'SK', 'SL', 'CH', 'BY', 'PL', 'UA', 'HR', 'RU']
-Girth: ['BA', 'RS', 'HR']
-Maximum degree: 8
+Girth: ['AL', 'KO', 'ME']
+Maximum degree: 9
 Minimum degree: 1
 c
-{'FR': 0, 'AT': 0, 'DE': 1, 'RS': 0, 'RU': 0, 'PL': 2, 'UA': 1, 'HU': 2, 'IT': 1, 'MK': 1, 'SK': 3, 'CH': 2, 'BY': 3, 'HR': 1, 'BG': 2, 'AL': 0, 'ME': 2, 'KO': 3, 'CZ': 4, 'SL': 3, 'LV': 1, 'LT': 4, 'RO': 3, 'GR': 3, 'SP': 1, 'BE': 1, 'LU': 2, 'FI': 1, 'NO': 2, 'AD': 2, 'LI': 1, 'NL': 0, 'BA': 2, 'TR': 0, 'EE': 2, 'SE': 0, 'MD': 0, 'DK': 0, 'MC': 1, 'SM': 0, 'PT': 0, 'VA': 0}
+{'DE': 0, 'FR': 1, 'AT': 1, 'RS': 0, 'RU': 0, 'PL': 1, 'UA': 2, 'HU': 3, 'IT': 0, 'MK': 1, 'SK': 0, 'CH': 2, 'BY': 3, 'HR': 1, 'BG': 2, 'AL': 0, 'ME': 2, 'KO': 3, 'CZ': 2, 'SL': 2, 'LV': 1, 'LT': 2, 'BE': 2, 'RO': 1, 'GR': 3, 'SP': 0, 'LU': 3, 'FI': 1, 'NO': 2, 'AD': 2, 'LI': 0, 'NL': 1, 'BA': 2, 'TR': 0, 'EE': 2, 'SE': 0, 'MD': 0, 'DK': 1, 'MC': 0, 'SM': 1, 'PT': 1, 'VA': 1}
 d
-{('AT', 'DE'): 0, ('DE', 'FR'): 1, ('RU', 'UA'): 0, ('DE', 'PL'): 2, ('PL', 'RU'): 1, ('AT', 'IT'): 1, ('HU', 'RS'): 0, ('AT', 'HU'): 2, ('PL', 'UA'): 3, ('FR', 'IT'): 0, ('AT', 'SK'): 3, ('HU', 'UA'): 1, ('BG', 'RS'): 1, ('AT', 'CH'): 4, ('CH', 'DE'): 3, ('BY', 'RU'): 2, ('CH', 'FR'): 2, ('MK', 'RS'): 2, ('HR', 'RS'): 3, ('ME', 'RS'): 4, ('LT', 'RU'): 3, ('LV', 'RU'): 4, ('RO', 'RS'): 5, ('PL', 'SK'): 0, ('BY', 'PL'): 4, ('BY', 'UA'): 5, ('KO', 'RS'): 6, ('AT', 'CZ'): 5, ('AT', 'SL'): 6, ('SK', 'UA'): 2, ('CZ', 'DE'): 4, ('CH', 'IT'): 5, ('BE', 'FR'): 3, ('NO', 'RU'): 5, ('HU', 'SK'): 4, ('DE', 'LU'): 5, ('FR', 'LU'): 4, ('RO', 'UA'): 4, ('LT', 'PL'): 5, ('CZ', 'PL'): 6, ('FR', 'SP'): 5, ('FI', 'RU'): 6, ('HR', 'HU'): 5, ('BA', 'RS'): 7, ('EE', 'RU'): 7, ('HU', 'SL'): 3, ('AD', 'FR'): 6, ('DE', 'NL'): 6, ('AT', 'LI'): 7, ('BG', 'MK'): 0, ('IT', 'SL'): 2, ('DE', 'DK'): 7, ('FR', 'MC'): 7, ('CZ', 'SK'): 1, ('HR', 'ME'): 0, ('KO', 'MK'): 1, ('GR', 'MK'): 3, ('BG', 'GR'): 2, ('BY', 'LT'): 0, ('BY', 'LV'): 1, ('BG', 'RO'): 3, ('HR', 'SL'): 1, ('AL', 'MK'): 4, ('MD', 'UA'): 6, ('KO', 'ME'): 2, ('AL', 'GR'): 0, ('AL', 'ME'): 1, ('LT', 'LV'): 2, ('AL', 'KO'): 3, ('IT', 'SM'): 3, ('IT', 'VA'): 4, ('BG', 'TR'): 4, ('CH', 'LI'): 0, ('BA', 'HR'): 2, ('EE', 'LV'): 0, ('GR', 'TR'): 1, ('FI', 'NO'): 0, ('BE', 'LU'): 0, ('MD', 'RO'): 0, ('FI', 'SE'): 1, ('AD', 'SP'): 0, ('BE', 'NL'): 1, ('NO', 'SE'): 2, ('PT', 'SP'): 1}
+{('DE', 'FR'): 0, ('AT', 'DE'): 1, ('DE', 'PL'): 2, ('PL', 'RU'): 0, ('RU', 'UA'): 1, ('AT', 'IT'): 0, ('AT', 'HU'): 2, ('HU', 'RS'): 0, ('PL', 'UA'): 3, ('FR', 'IT'): 1, ('CH', 'DE'): 3, ('HR', 'RS'): 1, ('MK', 'RS'): 2, ('AT', 'SK'): 3, ('BE', 'DE'): 4, ('CH', 'FR'): 2, ('AT', 'CH'): 4, ('BY', 'RU'): 2, ('CZ', 'DE'): 5, ('BG', 'RS'): 3, ('HU', 'UA'): 4, ('SK', 'UA'): 0, ('BY', 'UA'): 5, ('ME', 'RS'): 4, ('RO', 'RS'): 5, ('AT', 'SL'): 5, ('KO', 'RS'): 6, ('DE', 'LU'): 6, ('BY', 'PL'): 1, ('BE', 'FR'): 3, ('LT', 'RU'): 3, ('LV', 'RU'): 4, ('AT', 'CZ'): 6, ('PL', 'SK'): 4, ('FR', 'LU'): 4, ('CH', 'IT'): 5, ('CZ', 'PL'): 7, ('HR', 'HU'): 3, ('NO', 'RU'): 5, ('LT', 'PL'): 5, ('HU', 'SK'): 1, ('FI', 'RU'): 6, ('DE', 'NL'): 7, ('FR', 'SP'): 5, ('RO', 'UA'): 2, ('DE', 'DK'): 8, ('HU', 'SL'): 6, ('BG', 'MK'): 0, ('BA', 'RS'): 7, ('AD', 'FR'): 6, ('IT', 'SL'): 2, ('AT', 'LI'): 7, ('EE', 'RU'): 7, ('FR', 'MC'): 7, ('CZ', 'SK'): 2, ('BY', 'LV'): 0, ('HR', 'SL'): 0, ('BG', 'GR'): 1, ('AL', 'MK'): 1, ('KO', 'MK'): 3, ('HR', 'ME'): 2, ('MD', 'UA'): 6, ('GR', 'MK'): 4, ('BG', 'RO'): 4, ('BY', 'LT'): 4, ('AL', 'ME'): 0, ('AL', 'GR'): 2, ('KO', 'ME'): 1, ('AL', 'KO'): 4, ('LT', 'LV'): 1, ('IT', 'SM'): 3, ('IT', 'VA'): 4, ('BE', 'LU'): 0, ('CH', 'LI'): 0, ('BA', 'HR'): 4, ('BG', 'TR'): 2, ('MD', 'RO'): 0, ('EE', 'LV'): 2, ('GR', 'TR'): 0, ('FI', 'NO'): 0, ('BE', 'NL'): 1, ('FI', 'SE'): 1, ('NO', 'SE'): 2, ('AD', 'SP'): 0, ('PT', 'SP'): 1}
 e
 {'UA', 'PL', 'RU', 'BY'}
 f
 Independent set: ['AD', 'CZ', 'EE', 'MK', 'HU', 'SM', 'NO', 'LU', 'MC', 'RO', 'LT', 'BA', 'DK', 'ME', 'NL', 'CH', 'PT', 'VA', 'TR']
+True
 maximum_independent_set.size = 19
 g
-Maximum matching: {('NL', 'BE'), ('EE', 'LV'), ('FR', 'AD'), ('HR', 'ME'), ('PT', 'SP'), ('NO', 'RU'), ('LI', 'AT'), ('IT', 'CH'), ('DE', 'LU'), ('RS', 'BA'), ('GR', 'MK'), ('UA', 'SK'), ('SE', 'FI'), ('KO', 'AL'), ('MD', 'RO'), ('BG', 'TR'), ('LT', 'BY'), ('SL', 'HU'), ('CZ', 'PL')}
+Maximum matching: {('SE', 'FI'), ('CH', 'IT'), ('UA', 'SK'), ('MK', 'GR'), ('FR', 'AD'), ('LV', 'EE'), ('BG', 'TR'), ('BA', 'RS'), ('BY', 'LT'), ('AT', 'LI'), ('PL', 'CZ'), ('LU', 'DE'), ('MD', 'RO'), ('NL', 'BE'), ('HR', 'ME'), ('PT', 'SP'), ('AL', 'KO'), ('HU', 'SL'), ('NO', 'RU')}
 maximum_matching.size = 19
 h
-{'BY', 'AL', 'PL', 'FR', 'BG', 'KO', 'RU', 'DE', 'GR', 'UA', 'AT', 'HU', 'NO', 'LV', 'HR', 'FI', 'IT', 'CH', 'SP', 'SK', 'RO', 'RS', 'BE'}
-min_vertex_cover.size = 23
+{'FR', 'AL', 'RU', 'SP', 'PL', 'GR', 'BG', 'KO', 'NO', 'BY', 'BE', 'FI', 'AT', 'HU', 'HR', 'CH', 'RS', 'RO', 'IT', 'UA', 'LV', 'SK', 'DE'}
 True
+min_vertex_cover.size = 23
 i
-Minimum edge cover: {('EE', 'LV'), ('HR', 'ME'), ('PT', 'SP'), ('IT', 'SM'), ('BY', 'LT'), ('AL', 'KO'), ('DE', 'DK'), ('FR', 'MC'), ('NO', 'RU'), ('BE', 'NL'), ('BA', 'RS'), ('AD', 'FR'), ('DE', 'LU'), ('FI', 'SE'), ('GR', 'MK'), ('AT', 'LI'), ('CZ', 'PL'), ('MD', 'RO'), ('SK', 'UA'), ('BG', 'TR'), ('IT', 'VA'), ('HU', 'SL'), ('CH', 'IT')}
+Minimum edge cover: {('CZ', 'PL'), ('FI', 'SE'), ('DE', 'DK'), ('CH', 'IT'), ('IT', 'VA'), ('SK', 'UA'), ('BG', 'TR'), ('BA', 'RS'), ('BY', 'LT'), ('AT', 'LI'), ('AD', 'FR'), ('EE', 'LV'), ('MD', 'RO'), ('FR', 'MC'), ('BE', 'NL'), ('HR', 'ME'), ('PT', 'SP'), ('AL', 'KO'), ('HU', 'SL'), ('DE', 'LU'), ('IT', 'SM'), ('GR', 'MK'), ('NO', 'RU')}
 minimum_edge_cover.size = 23
 l
-SE,NO,RU,FI,
-DE,DK,
+NO,RU,SE,FI,
 PT,SP,
-FR,SP,AD,
+FR,AD,SP,
 SM,IT,
 VA,IT,
 FR,MC,
-CZ,BY,AL,PL,FR,BG,KO,RU,LU,ME,DE,GR,MD,HR,BA,RO,RS,LI,NL,SL,LT,UA,TR,AT,HU,LV,IT,CH,EE,SK,MK,BE,
+DK,DE,
+FR,LU,NL,ME,TR,LT,KO,BE,HR,CH,RS,RO,CZ,UA,SK,EE,AL,RU,SL,LI,MD,PL,GR,BG,MK,AT,HU,BA,IT,LV,BY,DE,
 UK,IE,
 m
-CZ,BY,AL,PL,AD,FR,BG,KO,RU,LU,ME,DE,GR,MD,NO,HR,FI,BA,RO,SE,RS,LI,NL,SL,LT,UA,TR,AT,HU,LV,IT,CH,EE,SP,SK,MK,BE,
+FR,AD,LU,SP,NL,ME,TR,LT,KO,NO,SE,BY,BE,HR,CH,RS,RO,CZ,UA,SK,EE,AL,SL,RU,LI,MD,PL,GR,FI,MK,HU,AT,BA,IT,LV,BG,DE,
 DK,
 MC,
 IE,
