@@ -4,41 +4,41 @@ Number of edges: 86
 Diameter: 8
 Radius 5
 Center: ['AT', 'CZ', 'DE', 'HU', 'SK', 'SL', 'CH', 'BY', 'PL', 'UA', 'HR', 'RU']
-Girth: ['AL', 'KO', 'ME']
+Girth: ['AT', 'DE', 'CH']
 Maximum degree: 9
 Minimum degree: 1
 c
 {'DE': 0, 'FR': 1, 'AT': 1, 'RS': 0, 'RU': 0, 'PL': 1, 'UA': 2, 'HU': 3, 'IT': 0, 'MK': 1, 'SK': 0, 'CH': 2, 'BY': 3, 'HR': 1, 'BG': 2, 'AL': 0, 'ME': 2, 'KO': 3, 'CZ': 2, 'SL': 2, 'LV': 1, 'LT': 2, 'BE': 2, 'RO': 1, 'GR': 3, 'SP': 0, 'LU': 3, 'FI': 1, 'NO': 2, 'AD': 2, 'LI': 0, 'NL': 1, 'BA': 2, 'TR': 0, 'EE': 2, 'SE': 0, 'MD': 0, 'DK': 1, 'MC': 0, 'SM': 1, 'PT': 1, 'VA': 1}
 d
-{('DE', 'FR'): 0, ('AT', 'DE'): 1, ('DE', 'PL'): 2, ('PL', 'RU'): 0, ('RU', 'UA'): 1, ('AT', 'IT'): 0, ('AT', 'HU'): 2, ('HU', 'RS'): 0, ('PL', 'UA'): 3, ('FR', 'IT'): 1, ('CH', 'DE'): 3, ('HR', 'RS'): 1, ('MK', 'RS'): 2, ('AT', 'SK'): 3, ('BE', 'DE'): 4, ('CH', 'FR'): 2, ('AT', 'CH'): 4, ('BY', 'RU'): 2, ('CZ', 'DE'): 5, ('BG', 'RS'): 3, ('HU', 'UA'): 4, ('SK', 'UA'): 0, ('BY', 'UA'): 5, ('ME', 'RS'): 4, ('RO', 'RS'): 5, ('AT', 'SL'): 5, ('KO', 'RS'): 6, ('DE', 'LU'): 6, ('BY', 'PL'): 1, ('BE', 'FR'): 3, ('LT', 'RU'): 3, ('LV', 'RU'): 4, ('AT', 'CZ'): 6, ('PL', 'SK'): 4, ('FR', 'LU'): 4, ('CH', 'IT'): 5, ('CZ', 'PL'): 7, ('HR', 'HU'): 3, ('NO', 'RU'): 5, ('LT', 'PL'): 5, ('HU', 'SK'): 1, ('FI', 'RU'): 6, ('DE', 'NL'): 7, ('FR', 'SP'): 5, ('RO', 'UA'): 2, ('DE', 'DK'): 8, ('HU', 'SL'): 6, ('BG', 'MK'): 0, ('BA', 'RS'): 7, ('AD', 'FR'): 6, ('IT', 'SL'): 2, ('AT', 'LI'): 7, ('EE', 'RU'): 7, ('FR', 'MC'): 7, ('CZ', 'SK'): 2, ('BY', 'LV'): 0, ('HR', 'SL'): 0, ('BG', 'GR'): 1, ('AL', 'MK'): 1, ('KO', 'MK'): 3, ('HR', 'ME'): 2, ('MD', 'UA'): 6, ('GR', 'MK'): 4, ('BG', 'RO'): 4, ('BY', 'LT'): 4, ('AL', 'ME'): 0, ('AL', 'GR'): 2, ('KO', 'ME'): 1, ('AL', 'KO'): 4, ('LT', 'LV'): 1, ('IT', 'SM'): 3, ('IT', 'VA'): 4, ('BE', 'LU'): 0, ('CH', 'LI'): 0, ('BA', 'HR'): 4, ('BG', 'TR'): 2, ('MD', 'RO'): 0, ('EE', 'LV'): 2, ('GR', 'TR'): 0, ('FI', 'NO'): 0, ('BE', 'NL'): 1, ('FI', 'SE'): 1, ('NO', 'SE'): 2, ('AD', 'SP'): 0, ('PT', 'SP'): 1}
+{('AT', 'DE'): 0, ('DE', 'FR'): 1, ('DE', 'PL'): 2, ('PL', 'RU'): 0, ('RU', 'UA'): 1, ('FR', 'IT'): 0, ('CH', 'DE'): 3, ('AT', 'IT'): 1, ('HU', 'RS'): 0, ('AT', 'HU'): 2, ('PL', 'UA'): 3, ('MK', 'RS'): 1, ('HR', 'RS'): 2, ('HU', 'UA'): 4, ('CH', 'FR'): 2, ('CZ', 'DE'): 4, ('AT', 'SK'): 3, ('BY', 'RU'): 2, ('BE', 'DE'): 5, ('BG', 'RS'): 3, ('AT', 'CH'): 4, ('ME', 'RS'): 4, ('SK', 'UA'): 0, ('PL', 'SK'): 1, ('BY', 'PL'): 4, ('AT', 'CZ'): 5, ('RO', 'RS'): 5, ('KO', 'RS'): 6, ('BE', 'FR'): 3, ('LV', 'RU'): 3, ('AT', 'SL'): 6, ('DE', 'LU'): 6, ('LT', 'RU'): 4, ('BY', 'UA'): 5, ('CH', 'IT'): 5, ('HU', 'SK'): 5, ('HR', 'HU'): 1, ('DE', 'NL'): 7, ('CZ', 'PL'): 6, ('FR', 'SP'): 4, ('FI', 'RU'): 5, ('LT', 'PL'): 5, ('FR', 'LU'): 5, ('RO', 'UA'): 2, ('NO', 'RU'): 6, ('DE', 'DK'): 8, ('IT', 'SL'): 2, ('AT', 'LI'): 7, ('EE', 'RU'): 7, ('BA', 'RS'): 7, ('BG', 'MK'): 0, ('AD', 'FR'): 6, ('HU', 'SL'): 3, ('FR', 'MC'): 7, ('GR', 'MK'): 2, ('BG', 'GR'): 1, ('BY', 'LT'): 0, ('HR', 'ME'): 0, ('HR', 'SL'): 4, ('AL', 'MK'): 3, ('BG', 'RO'): 4, ('KO', 'MK'): 4, ('CZ', 'SK'): 2, ('MD', 'UA'): 6, ('BY', 'LV'): 1, ('AL', 'GR'): 0, ('LT', 'LV'): 2, ('AL', 'ME'): 1, ('KO', 'ME'): 2, ('AL', 'KO'): 5, ('IT', 'SM'): 3, ('IT', 'VA'): 4, ('BA', 'HR'): 3, ('BG', 'TR'): 2, ('CH', 'LI'): 0, ('BE', 'LU'): 0, ('BE', 'NL'): 1, ('GR', 'TR'): 3, ('EE', 'LV'): 0, ('FI', 'NO'): 0, ('MD', 'RO'): 0, ('FI', 'SE'): 1, ('AD', 'SP'): 0, ('NO', 'SE'): 2, ('PT', 'SP'): 1}
 e
-{'UA', 'PL', 'RU', 'BY'}
+{'LT', 'LV', 'BY', 'RU'}
 f
 Independent set: ['AD', 'CZ', 'EE', 'MK', 'HU', 'SM', 'NO', 'LU', 'MC', 'RO', 'LT', 'BA', 'DK', 'ME', 'NL', 'CH', 'PT', 'VA', 'TR']
 True
 maximum_independent_set.size = 19
 g
-Maximum matching: {('SE', 'FI'), ('CH', 'IT'), ('UA', 'SK'), ('MK', 'GR'), ('FR', 'AD'), ('LV', 'EE'), ('BG', 'TR'), ('BA', 'RS'), ('BY', 'LT'), ('AT', 'LI'), ('PL', 'CZ'), ('LU', 'DE'), ('MD', 'RO'), ('NL', 'BE'), ('HR', 'ME'), ('PT', 'SP'), ('AL', 'KO'), ('HU', 'SL'), ('NO', 'RU')}
+Maximum matching: {('GR', 'MK'), ('LT', 'BY'), ('FI', 'SE'), ('UA', 'SK'), ('SP', 'PT'), ('AT', 'LI'), ('LU', 'DE'), ('HU', 'SL'), ('IT', 'CH'), ('AL', 'KO'), ('RO', 'MD'), ('NO', 'RU'), ('TR', 'BG'), ('EE', 'LV'), ('BA', 'RS'), ('BE', 'NL'), ('ME', 'HR'), ('CZ', 'PL'), ('AD', 'FR')}
 maximum_matching.size = 19
 h
-{'FR', 'AL', 'RU', 'SP', 'PL', 'GR', 'BG', 'KO', 'NO', 'BY', 'BE', 'FI', 'AT', 'HU', 'HR', 'CH', 'RS', 'RO', 'IT', 'UA', 'LV', 'SK', 'DE'}
+{'FI', 'BE', 'CH', 'SK', 'LV', 'HR', 'DE', 'BY', 'NO', 'RO', 'IT', 'UA', 'GR', 'AL', 'SP', 'FR', 'KO', 'AT', 'BG', 'PL', 'RS', 'HU', 'RU'}
 True
 min_vertex_cover.size = 23
 i
-Minimum edge cover: {('CZ', 'PL'), ('FI', 'SE'), ('DE', 'DK'), ('CH', 'IT'), ('IT', 'VA'), ('SK', 'UA'), ('BG', 'TR'), ('BA', 'RS'), ('BY', 'LT'), ('AT', 'LI'), ('AD', 'FR'), ('EE', 'LV'), ('MD', 'RO'), ('FR', 'MC'), ('BE', 'NL'), ('HR', 'ME'), ('PT', 'SP'), ('AL', 'KO'), ('HU', 'SL'), ('DE', 'LU'), ('IT', 'SM'), ('GR', 'MK'), ('NO', 'RU')}
+Minimum edge cover: {('SK', 'UA'), ('GR', 'MK'), ('IT', 'SM'), ('FR', 'MC'), ('BG', 'TR'), ('FI', 'SE'), ('MD', 'RO'), ('CH', 'IT'), ('BY', 'LT'), ('PT', 'SP'), ('IT', 'VA'), ('AT', 'LI'), ('HR', 'ME'), ('HU', 'SL'), ('AL', 'KO'), ('DE', 'DK'), ('NO', 'RU'), ('DE', 'LU'), ('EE', 'LV'), ('BA', 'RS'), ('BE', 'NL'), ('CZ', 'PL'), ('AD', 'FR')}
 minimum_edge_cover.size = 23
 l
-NO,RU,SE,FI,
-PT,SP,
-FR,AD,SP,
+FI,NO,SE,RU,
+SP,PT,
+SP,AD,FR,
 SM,IT,
-VA,IT,
-FR,MC,
+IT,VA,
+MC,FR,
 DK,DE,
-FR,LU,NL,ME,TR,LT,KO,BE,HR,CH,RS,RO,CZ,UA,SK,EE,AL,RU,SL,LI,MD,PL,GR,BG,MK,AT,HU,BA,IT,LV,BY,DE,
-UK,IE,
+BE,MK,EE,LV,HR,DE,LU,LI,CZ,GR,FR,KO,HU,BA,NL,CH,SL,SK,BY,RO,MD,LT,IT,UA,AL,TR,AT,BG,ME,PL,RS,RU,
+IE,UK,
 m
-FR,AD,LU,SP,NL,ME,TR,LT,KO,NO,SE,BY,BE,HR,CH,RS,RO,CZ,UA,SK,EE,AL,SL,RU,LI,MD,PL,GR,FI,MK,HU,AT,BA,IT,LV,BG,DE,
+BE,FI,MK,EE,LV,HR,DE,NO,LU,LI,CZ,GR,FR,KO,HU,BA,NL,CH,SK,BY,RO,MD,LT,IT,BG,UA,AL,TR,SP,AD,AT,SL,ME,PL,RS,SE,RU,
 DK,
 MC,
 IE,
